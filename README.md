@@ -10,6 +10,6 @@ What's implemented from feedback ..?
 * Tests run in parallel, set to 4 threads in TestNG.xml file
 
 How to run..
-make sure maven is setup
-'cd' to project root directory
+make sure maven is setup \n
+'cd' to project root directory \n
 execute 'mvn test'
