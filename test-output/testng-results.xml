@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-03T17:34:24 IST" name="Suite" finished-at="2022-09-03T17:35:03 IST" duration-ms="39101">
+    <groups>
+    </groups>
+    <test started-at="2022-09-03T17:34:24 IST" name="Test" finished-at="2022-09-03T17:35:03 IST" duration-ms="39101">
+      <class name="com.seleniumTestNG.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.HomePageTest@159f197]" started-at="2022-09-03T17:34:24 IST" name="setUp" finished-at="2022-09-03T17:34:36 IST" duration-ms="11332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageisDisplayed()[pri:0, instance:com.seleniumTestNG.tests.HomePageTest@159f197]" started-at="2022-09-03T17:34:36 IST" name="verifyHomePageisDisplayed" finished-at="2022-09-03T17:34:36 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageisDisplayed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.HomePageTest@159f197]" started-at="2022-09-03T17:34:36 IST" name="close" finished-at="2022-09-03T17:34:49 IST" duration-ms="13245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.seleniumTestNG.tests.HomePageTest -->
+      <class name="com.seleniumTestNG.tests.ArticlePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:24 IST" name="setUp" finished-at="2022-09-03T17:34:36 IST" duration-ms="11841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:24 IST" name="setUp" finished-at="2022-09-03T17:34:36 IST" duration-ms="11305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:24 IST" name="setUp" finished-at="2022-09-03T17:34:35 IST" duration-ms="10329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserAbleToSearchArticle(java.lang.String)[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:35 IST" name="verifyUserAbleToSearchArticle" data-provider="articles" finished-at="2022-09-03T17:34:43 IST" duration-ms="8330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToSearchArticle -->
+        <test-method signature="verifyViewHistoryHeader(java.lang.String)[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:36 IST" name="verifyViewHistoryHeader" data-provider="articles" finished-at="2022-09-03T17:34:49 IST" duration-ms="13159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewHistoryHeader -->
+        <test-method signature="verifyTalkHeader(java.lang.String)[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:36 IST" name="verifyTalkHeader" data-provider="articles" finished-at="2022-09-03T17:34:48 IST" duration-ms="12274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTalkHeader -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:43 IST" name="close" finished-at="2022-09-03T17:34:45 IST" duration-ms="1742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:45 IST" name="setUp" finished-at="2022-09-03T17:34:50 IST" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:48 IST" name="close" finished-at="2022-09-03T17:34:50 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:49 IST" name="close" finished-at="2022-09-03T17:34:50 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="verifyUserAbleToSearchArticle(java.lang.String)[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:50 IST" name="verifyUserAbleToSearchArticle" data-provider="articles" finished-at="2022-09-03T17:34:56 IST" duration-ms="6172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToSearchArticle -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:50 IST" name="setUp" finished-at="2022-09-03T17:34:56 IST" duration-ms="5961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:50 IST" name="setUp" finished-at="2022-09-03T17:34:56 IST" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTalkHeader(java.lang.String)[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:56 IST" name="verifyTalkHeader" data-provider="articles" finished-at="2022-09-03T17:35:02 IST" duration-ms="6740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTalkHeader -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:56 IST" name="close" finished-at="2022-09-03T17:34:57 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="verifyViewHistoryHeader(java.lang.String)[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:34:56 IST" name="verifyViewHistoryHeader" data-provider="articles" finished-at="2022-09-03T17:35:02 IST" duration-ms="5597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewHistoryHeader -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:35:02 IST" name="close" finished-at="2022-09-03T17:35:02 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.seleniumTestNG.tests.ArticlePageTest@647fd8ce]" started-at="2022-09-03T17:35:02 IST" name="close" finished-at="2022-09-03T17:35:03 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.seleniumTestNG.tests.ArticlePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
